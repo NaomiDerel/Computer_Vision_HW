@@ -1,0 +1,20 @@
+name: deep_learn
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8  # Recommended version for most libraries
+  - numpy=1.21  # Essential for array manipulation in computer vision
+  - opencv=4.5.1  # For computer vision tasks
+  - matplotlib=3.4  # For visualizations
+  - scikit-learn=0.24  # For machine learning algorithms
+  - scipy=1.6  # For scientific computing, often used with computer vision
+  - pillow=8.2  # For image processing
+  - seaborn=0.11  # For statistical plotting (optional)
+  - pandas=1.3  # For data manipulation (optional)
+  - jupyterlab=3.0  # For interactive work in Jupyter notebooks
+  - pip:
+    - tensorflow==2.5.0  # For deep learning (if needed)
+    - torch==1.9.0  # PyTorch (if using PyTorch for deep learning)
+    - matplotlib==3.4  # For plotting if not installed via Conda
