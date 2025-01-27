@@ -37,3 +37,12 @@ The second part is an implementation of homography estimation, image warping and
 
 ## Assignment 4 - Structure from Motion
 
+An implementation of matches between images using the 8-point algorithm and epipolar geometry.
+<div style="text-align: center;">
+  <img src="hw4_Structure_from_motion/output/1.2_points.png" alt="Panorama" height="200"/>
+</div>
+
+Triangulation of 3D points from 2 camera angles, and a 3D reconstruction of the scene.
+<div style="text-align: center;">
+  <img src="hw4_Structure_from_motion/output/1.5_1.png" alt="Panorama" height="200"/>
+</div>
