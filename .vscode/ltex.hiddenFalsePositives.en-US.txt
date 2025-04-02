@@ -1,1 +1,0 @@
-{"rule":"CD_NN","sentence":"^\\QEight Point Algorithm.\\E$"}
